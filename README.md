@@ -6,7 +6,7 @@
 
 ## Process:
 - Start with ploting some data
-- Convert images to matrix 28*28*1 for CNN
+- Convert images to matrix 28 x 28 x 1for CNN
 - Convert image to the range[-1,1]  
 - Do one-hot encoding the label
 - Train-test-split for testing and validation set 
