@@ -11,9 +11,9 @@
 - Do one-hot encoding the label
 - Train-test-split for testing and validation set 
 - Build the model: 
-  - Params: - batch_size = 64, epochs = 20, num_classes = num_label = 10
-	    - padding='same', activation = linear & LeakyReLU
-  - Layer: Conv2D -> 3 MaxPooling2D ->  softmax
+  >- Params: - batch_size = 64, epochs = 20, num_classes = num_label = 10
+  >	    - padding='same', activation = linear & LeakyReLU
+  >- Layer: Conv2D -> 3 MaxPooling2D ->  softmax
   
 - Check the effectiveness and modify the param: After the first model, the result get seems overfitted
   >- Test loss: 0.4897425325092394
